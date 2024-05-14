@@ -1,7 +1,13 @@
+# Ignore Saved directory except for specific files
 /Saved
-/Intermediate
-Saved/AutoScreenshot.png
+!Saved/AutoScreenshot.png
 
+# Ignore Intermediate directory except for project files
+/Intermediate
+!Intermediate/**/*.vcxproj
+!Intermediate/**/*.csproj
+
+# Ignore other unnecessary directories and files
 /build
 /Binaries
 /Android_ASTC
